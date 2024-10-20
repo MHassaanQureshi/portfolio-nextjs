@@ -4,11 +4,11 @@ export default function About(){
         return (
             <div className="w-full h-[60vh] flex mt-16 items-center justify-center">
               <div className="w-[80%] h-[50vh] text-white p-5 flex flex-col justify-center items-center">
-                <h1 className="text-4xl relative border-b-2 border-red-500  p-2 font-extrabold">
+                <h1 className="text-4xl relative border-b-2 border-red-500  p-2 font-extrabold sm: mt-48">
                   About Me
                 </h1>
-                <div className="flex flex-row p-5 flex-wrap lg:flex-nowrap mt-12 ">
-                  <div className="w-full lg:w-1/2 h-[60%] p-5">
+                <div className="flex flex-row p-5 flex-wrap lg:flex-nowrap lg:mt-12 ">
+                <div className="w-full lg:w-1/2 h-[60%] sm: h-[20%] p-5">
                     <Image
                       src="/images/profile.jpg"
                       alt="Profile"
@@ -17,9 +17,9 @@ export default function About(){
                       height={300}
                     />
                   </div>
-                  <div className="mt-4 lg:mt-0  text-lg gap-5 flex flex-col w-1/2 sm:w-3/4">
-                    <div className="relative ">
-                      <p>
+                  <div className="    text-lg gap-5 flex flex-col w-1/2 ">
+                  <div className="relative">
+                      <p >
                         I’m a dedicated learner, passionate about acquiring new skills
                         and exploring modern technologies. I recently started my journey
                         into front-end development and am eager to create user-friendly
