@@ -55,22 +55,22 @@ export default function Navbar() {
                
                 <ul className="hidden lg:flex space-x-8 text-2xl">
                     <li>
-                        <Link href="" className="hover:border-b-2 border-red-700">
+                        <Link href="#about" className="hover:border-b-2 border-red-700">
                             About
                         </Link>
                     </li>
                     <li>
-                        <Link href="" className="hover:border-b-2 border-red-700">
+                        <Link href="#skills" className="hover:border-b-2 border-red-700">
                             Skills
                         </Link>
                     </li>
                     <li>
-                        <Link href="" className="hover:border-b-2 border-red-700">
+                        <Link href="#project" className="hover:border-b-2 border-red-700">
                             Projects
                         </Link>
                     </li>
                     <li>
-                        <Link href="" className="hover:border-b-2 border-red-700">
+                        <Link href="#contact" className="hover:border-b-2 border-red-700">
                             Contact
                         </Link>
                     </li>
@@ -81,22 +81,22 @@ export default function Navbar() {
                 <div className="lg:hidden">
                     <ul className="flex flex-col space-y-4 mt-4">
                         <li>
-                            <Link href="" className="hover:border-b-2 border-red-700">
+                            <Link href="#about" className="hover:border-b-2 border-red-700">
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link href="" className="hover:border-b-2 border-red-700">
+                            <Link href="#skills" className="hover:border-b-2 border-red-700">
                                 Skills
                             </Link>
                         </li>
                         <li>
-                            <Link href="" className="hover:border-b-2 border-red-700">
+                            <Link href="#project" className="hover:border-b-2 border-red-700">
                                 Projects
                             </Link>
                         </li>
                         <li>
-                            <Link href="" className="hover:border-b-2 border-red-700">
+                            <Link href="#contact" className="hover:border-b-2 border-red-700">
                                 Contact
                             </Link>
                         </li>

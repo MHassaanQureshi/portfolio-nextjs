@@ -1,6 +1,11 @@
 import Image from 'next/image';
-
-const Mobile = ({ img, name, about, link }) => {
+interface mobileProps {
+  img: string;
+  name: string;
+  about: string;
+  link:string;
+}
+const Mobile: React.FC<mobileProps> = ({ img, name, about, link }) => {
   return (
     <div className="bg-white/10 backdrop-blur-lg border border-white/30 rounded-lg shadow-lg p-5 text-white w-full md:w-1/3 mt-4 transition-transform transform hover:scale-105 flex gap-4">
       <div className="mb-4 w-1/2">

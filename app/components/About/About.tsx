@@ -8,7 +8,7 @@ export default function About(){
                   About Me
                 </h1>
                 <div className="flex flex-row p-5 flex-wrap lg:flex-nowrap lg:mt-12 ">
-                <div className="w-full lg:w-1/2 h-[60%] sm: h-[20%] p-5">
+                <div className="w-full lg:w-1/2  sm:h-[20%]">
                     <Image
                       src="/images/profile.jpg"
                       alt="Profile"
@@ -17,7 +17,7 @@ export default function About(){
                       height={300}
                     />
                   </div>
-                  <div className="    text-lg gap-5 flex flex-col w-1/2 ">
+                  <div className="text-lg gap-5 flex flex-col w-1/2">
                   <div className="relative">
                       <p >
                         I’m a dedicated learner, passionate about acquiring new skills

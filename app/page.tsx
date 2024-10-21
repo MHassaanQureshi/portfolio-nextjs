@@ -14,10 +14,10 @@ export default function Home() {
     <p className="flex align-middle justify-center text-red-600 lg:text-3xl">I built things on the internet</p>
   
   </div>
-  <div className="lg:mt-96 sm: mt-[44rem]">
+  <div className="lg:mt-96 sm: mt-[44rem]" id="about">
     <About />
   </div>
-  <div className="flex  flex-col w-vw justify-center align-middle lg:mt-52 sm: mt-[56rem]">
+  <div className="flex  flex-col w-vw justify-center align-middle lg:mt-52 sm: mt-[56rem]" id="skills">
   <div className="w-vw flex justify-center align-middle">
   <h1 className="text-4xl relative border-b-2 border-red-500   text-white p-2 w-24 flex align-middle justify-center font-extrabold">Skills</h1>
   </div>
@@ -46,7 +46,7 @@ export default function Home() {
   </div>
 
   <div>
-  <div className="w-vw flex justify-center align-middle lg:mt-32 sm: mt-[4rem]">
+  <div className="w-vw flex justify-center align-middle lg:mt-32 sm: mt-[4rem]" id="project">
   <h1 className="text-4xl relative border-b-2 border-red-500   text-white p-2 w-48 flex align-middle justify-center font-extrabold">Portfolio</h1>
   </div>
   <div className="flex flex-col lg:mt-24 ">
@@ -70,7 +70,7 @@ export default function Home() {
     
   </div>
 
-  <div className="flex pb-10">
+  <div className="flex pb-10" id="contact">
     <Contact />
   </div>
     </div>

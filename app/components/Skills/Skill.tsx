@@ -1,6 +1,10 @@
 import Image from 'next/image';
-
-const Skill = ({ img, name, about }) => {
+interface SkillProps {
+  img: string;
+  name: string;
+  about: string;
+}
+const Skill: React.FC<SkillProps> = ({ img, name, about }) => {
   return (
     <div className="bg-white/10 backdrop-blur-lg border border-white/30 rounded-lg shadow-lg p-5 text-white w-full md:w-1/3 mt-4 transition-transform transform hover:scale-105">
       <div className="mb-4">
