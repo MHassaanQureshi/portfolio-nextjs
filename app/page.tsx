@@ -31,7 +31,7 @@ export default function Home() {
     <Skill img="/images/typescript.png" name="TypeScript" about="I have strong TypeScript skills, demonstrated through projects like a resume generator and a dynamic web application. I focus on building robust, type-safe code that enhances maintainability and scalability."/>
     </div>
   <div className="w-vw justify-center align-middle gap-5 lg:flex sm:flex-colp-4 ">
-    <Skill img="/images/Bootstrap.png" name="BootStrap" about="I have strong Bootstrap skills, demonstrated through various projects. I excel in creating responsive, mobile-first designs that enhance user experience. My focus is on utilizing Bootstrap's components to streamline development."/>
+    <Skill img="/images/bootstrap.png" name="BootStrap" about="I have strong Bootstrap skills, demonstrated through various projects. I excel in creating responsive, mobile-first designs that enhance user experience. My focus is on utilizing Bootstrap's components to streamline development."/>
     <Skill img="/images/python.png" name="Python" about="I have solid Python skills, with experience in Tkinter and Pygame. I created an image viewer, focusing on building user-friendly applications and enhancing my problem-solving abilities."/>
     </div>
   <div className="w-vw  justify-center align-middle gap-5 lg:flex sm:flex-colp-4">
